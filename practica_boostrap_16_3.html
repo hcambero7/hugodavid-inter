@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>Document</title>
+        <style>
+            body{
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-lg-6 col-md-12">
+                    <form action="">
+                        <label for="nombre" class="form-label text-warning mb-3">Nombre</label>
+                        <input type="text" class="form-control mb-3"  placeholder="Nombre" name="nombre" id="nombre">
+                        <label for="mensaje" class="form-label text-warning mb-3">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" aria-label="" class="form-control mb-3" cols="50" rows="3"></textarea>
+                    </form>
+                </div>
+
+                <div class="col-lg-6 text-warning col-md-12">
+                    <form action="">
+                        <label for="correo" class="form-label mb-3">Correo</label>
+                        <input type="email" class="form-control mb-3" placeholder="correo@correo.com" name="correo" id="correo">
+                        <div class="row">
+                            <div class="col-lg-6 mb-6 col-md-12">
+                                <label for="Estado Civil" class="form-label mb-3">Estado Civil</label>
+                                <div class="form-check">
+                                    <input type="checkbox" name="checkbox-1" class="form-check-input" id="checkbox-1">
+                                    <label for="checkbox-1" class="form-check-label">Casado</label>
+                                </div> 
+                                <div class="form-check">
+                                    <input type="checkbox" name="checkbox-2" class="form-check-input" id="checkbox-2">
+                                    <label for="checkbox-2" class="form-check-label">Soltero</label>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-12">
+                                <label for="Pais" class="form-label">Pais</label>
+                                <select name="pais" id="pais" class="form-control mb-3" aria-label="Seleciona el pais">
+                                    <option class="form-control" value="Francia">Francia</option>
+                                    <option class="form-control" value="España">España</option>
+                                    <option class="form-control" value="Portugal">Portugal</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-12 col-md-12 mt-3 text-warning d-flex justify-content-center">
+                    <div class="form-group">
+                        <input type="checkbox" name="checkbox-1" class="form-check-input" id="checkbox-1">
+                        <label for="checkbox-1" class="form-check-label">Acepto los terminos y condiciones</label>
+                        <button type="submit" class="form-control btn-primary btn-block active mt-3">Enviar</button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>

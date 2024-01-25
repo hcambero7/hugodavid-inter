@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>Hugo Cambero</title>
+        <style>
+            body{
+                background-color: salmon;
+                color: white;
+            }
+            .row{
+                background-color: salmon;
+                margin-top: 20px;
+            }
+            .contenedor{
+                background: beige;
+                text-align: center;
+                padding: 20px;
+                border: 1px solid blueviolet;
+                text-align: left;
+            }
+            .header{
+                background-color: blueviolet;
+            }
+            .main{
+                background-color: green;
+            }
+            .aside{
+                background-color: cadetblue;
+            }
+            .contenedor-columna{
+                background-color: orange;
+            }
+            .footer{
+                background-color: palevioletred;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="contenedor col-12 header">
+                    <h1>Header</h1>
+                    <p>12 columnas</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contenedor col-md-8 col-12 main">
+                    <h1>MAIN</h1>
+                    <p class="d-none d-md-block">8 columnas</p>
+                    <p class="d-block d-md-none">12 Columnas</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur, debitis molestias ex delectus corporis maxime tempore officia error deserunt ratione placeat sint fugit quisquam unde et, ipsum repellat quo.</p>
+                </div>
+                <div class="contenedor col-md-4 col-12 aside">
+                    <h1>ASIDE</h1>
+                    <p class="d-none d-md-block">4 columnas</p>
+                    <p class="d-block d-md-none">12 Columnas</p>
+                    <p></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid omnis quod maxime, nam dolor illo corrupti ipsum expedita repellat eaque soluta, ipsa fugit ut aliquam doloribus deleniti. Consectetur, a harum.</p>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="contenedor col-lg-3 contenedor-columna">
+                    <h5 class="d-none d-lg-block">Columna #1</h5>
+                    <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+                    <p class="d-block d-md-none">12 Columnas</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quia atque quos molestiae quibusdam reiciendis voluptatum asperiores similique quidem sequi, blanditiis non facere voluptatem quis est dolorem pariatur soluta modi.</p>
+                </div>
+                <div class="contenedor col-lg-3 contenedor-columna">
+                    <h5 class="d-none d-lg-block">Columna #2</h5>
+                    <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+                    <p class="d-block d-md-none">12 Columnas</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quia atque quos molestiae quibusdam reiciendis voluptatum asperiores similique quidem sequi, blanditiis non facere voluptatem quis est dolorem pariatur soluta modi.</p>
+                </div>
+                <div class="contenedor col-lg-3 contenedor-columna">
+                    <h5 class="d-none d-lg-block">Columna #3</h5>
+                    <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+                    <p class="d-block d-md-none">12 Columnas</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quia atque quos molestiae quibusdam reiciendis voluptatum asperiores similique quidem sequi, blanditiis non facere voluptatem quis est dolorem pariatur soluta modi.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contenedor col-12 footer">
+                    <h1>FOOTER</h1>
+                    <p>12 columnas</p>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>

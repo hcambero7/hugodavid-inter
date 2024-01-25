@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>Document</title>
+        <style>
+            body{
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-6">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">
+                                Correo Electrónico
+                            </label>
+                            <input type="text" class="form-control" aria-describedby="ayuda-correo" name="correo" id="Correo">
+                            <div id="ayuda-correo" class="form-text">
+                                Te enviaremos un mensaje de confirmación
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">
+                                Mensaje
+                            </label>
+                            <textarea class="form-control" name="mensaje" id="Mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Formulario</button>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <form action="">
+                            <input type="text" class="form-control form-control-lg mb-3" value="Input Grande">
+                            <input type="text" class="form-control form-control-sm mb-3" value="Input Pequeño">
+                            <input type="text" class="form-control form-control mb-3" placeholder="Input Deshavilitado" disabled>
+                            <input type="text" class="form-control form-control mb-3" placeholder="Input solo letura" readonly>
+                            <input type="text" class="form-control-plaintext mb-3" placeholder=" Input solo lectura" readonly>
+                            <input type="file" class="form-control" value="Ningun archivo selecionado">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>

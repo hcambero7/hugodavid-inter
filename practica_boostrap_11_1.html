@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="accordion" id="lecciones">
+                        <!-- Elemento nro. 1-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="encabezado-1">
+
+                                <!--Clase atributo y etiquetas para personas-->
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#elemento-1" aria-expanded="true" aria-controls="elemento1">
+                                    Tema # 1
+                                </button>
+                            </h2>
+                            <div id="elemento-1" class="acordion-collapse collapse show" aria-labelledby="encabezado-1" data-bs-parent="#lecciones">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit ipsam rem, ullam maiores dolorem cum tempore ut tempora inventore a repellendus fugiat cupiditate voluptatibus facere nihil vitae, ab adipisci.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="encabezado-2">
+
+                                <!--Clase atributo y etiquetas para personas-->
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#elemento-2" aria-expanded="true" aria-controls="elemento2">
+                                    Tema # 2
+                                </button>
+                            </h2>
+                            <div id="elemento-2" class="acordion-collapse collapse" aria-labelledby="encabezado-2" data-bs-parent="#lecciones">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit ipsam rem, ullam maiores dolorem cum tempore ut tempora inventore a repellendus fugiat cupiditate voluptatibus facere nihil vitae, ab adipisci.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="encabezado-3">
+
+                                <!--Clase atributo y etiquetas para personas-->
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#elemento-3" aria-expanded="true" aria-controls="elemento3">
+                                    Tema # 3
+                                </button>
+                            </h2>
+                            <div id="elemento-3" class="acordion-collapse collapse" aria-labelledby="encabezado-3" data-bs-parent="#lecciones">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit ipsam rem, ullam maiores dolorem cum tempore ut tempora inventore a repellendus fugiat cupiditate voluptatibus facere nihil vitae, ab adipisci.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
