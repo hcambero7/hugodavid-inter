@@ -25,6 +25,13 @@
             .img-tam{
                 width: 547px;
             }
+           
+            /* .grid-container{
+                opacity: 0.5;
+            } */
+            .portafolio:hover {
+                background-color: rgba(0, 0, 255, 0.5) !important; /* Azul transparente */
+            }
             .imagen{
                 height: 500px;
                 border-radius: 600px;
@@ -39,19 +46,29 @@
                 order:6;
             }
             .portafolio:nth-child(4){
+                order:7;
+            }
+            .portafolio:nth-child(5){
+                order:4;
+            }
+            .portafolio:nth-child(6){
+                order:5;
+            }
+            .portafolio:nth-child(7){
                 order:2;
             }
+
         </style>
     </head>
     <body>
         <div class="container-fluid my-5">
             <div class="nav row g-0 justify-content-between mt-3 rounded-top">
                 <div class="col-6 col-lg-auto d-flex align-items-center  justify-content-center mb-3">
-                    <a href="#" class="navbar-brand mb-0 mx-4"><h4>ZETA</h4></a>
+                    <a href="#" class="navbar-brand mb-0 mx-4"><h4 class="my-2">ZETA</h4></a>
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
                         <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
                     </svg>
-                    <h4 class="text-muted mb-0 mx-4 my-2">Desarrollo Web</h4>
+                    <h4 class="text-muted mb-0 mx-4">Desarrollo Web</h4>
                 </div>
                 <div class="col-6 d-flex justify-content-end mx-12">
                     <div class="contenedor d-flex justify-content-end">
@@ -111,6 +128,7 @@
                     <div class="card-body">
                         <h3 class="card-title text-info text-center">Portafolio</h3>
                         <div class="grid-container my-5">
+                            
                             <img class="portafolio img-fluid col-4 ms-5 mb-4" src="img/imagen1.jpeg">
                             <img class="portafolio img-fluid col-7 ms-5 mb-4" src="img/imagen2.jpeg">
                             <img class="portafolio img-fluid col-7 ms-5 mb-4" src="img/imagen3.webp">

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>Document</title>
+        <style>
+            body{
+                background-color: aqua;
+            }
+            .caja{
+                height: 100px;
+                width: 100px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Enlace toda la tarjeta</h2>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <div class="card">
+                        <img src="img/escudo.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Escudo de la Bandera Nacional del ESPAÑA</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt soluta nobis, odio non quae distinctio nesciunt corrupti asperiores cumque eveniet hic sequi, velit a molestiae commodi minima laboriosam, dolorem dolore.</p>
+                            <a href="#" class="btn btn-primary stretched-link">ver mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <h2>Bordes</h2>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="caja bg-light me-2 border border-primary"></div>
+                    <div class="caja bg-light me-2 border-top border-primary"></div>
+                    <div class="caja bg-light me-2 border-end border-primary"></div>
+                    <div class="caja bg-light me-2 border-bottom border-primary"></div>
+                    <div class="caja bg-light me-2 border-start border-primary"></div>
+                </div>
+
+                <div class="col">
+                    <div class="caja bg-light me-2 border border-1 border-primary"></div>
+                    <div class="caja bg-light me-2 border border-2 border-primary"></div>
+                    <div class="caja bg-light me-2 border border-3 border-primary"></div>
+                    <div class="caja bg-light me-2 border border-4 border-primary"></div>
+                    <div class="caja bg-light me-2 border border-5 border-primary"></div>
+                </div>
+            </div>
+
+            <div class="col-12 mt-5">
+                    <div class="caja bg-primary me-2 rounded"></div>
+                    <div class="caja bg-primary me-2 rounded-top"></div>
+                    <div class="caja bg-primary me-2 rounded-end"></div>
+                    <div class="caja bg-primary me-2 rounded-bottom"></div>
+                    <div class="caja bg-primary me-2 rounded-start"></div>
+                    <div class="caja bg-primary me-2 rounded-circle"></div>
+                    <div class="caja bg-primary me-2 rounded-pill" style="width: 200px;"></div>
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.js"></script>
+    </body>
+</html>
